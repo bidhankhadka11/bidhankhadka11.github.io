@@ -1,53 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bidhan Khadka - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        .container {
-            text-align: center;
-            max-width: 600px;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        h1 {
-            font-size: 2em;
-            margin: 0.2em;
-        }
-        p {
-            font-size: 1.2em;
-            margin: 0.5em 0;
-        }
-        a {
-            color: #007acc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will You Be My Valentine?</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<div class="container">
-    <h1>Hi, I'm Bidhan 👋</h1>
-    <p>Computer Science sophomore at UTA, exploring the world of code and building projects that make a difference.</p>
-    <p>Check out my work on <a href="https://github.com/bidhankhadka11" target="_blank">GitHub</a>!</p>
-</div>
-
+  <div class="container">
+    <h1>Will You Be My Valentine?</h1>
+    <div class="buttons">
+      <button id="yesButton">Yes</button>
+      <button id="noButton">No</button>
+    </div>
+    
+    <div id="yayMessage" class="hidden">Yay! You made me the happiest person! 💖</div>
+  </div>
+  <div id="fireworks"></div>
+  <script src="script.js"></script>
 </body>
 </html>
-
